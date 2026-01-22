@@ -14,5 +14,5 @@ export default function ProgressBar({ timer }){
         };
     }, []);
 
-    return <progress value={remainingTime} max={timer} />
+    return <progress value={remainingTime} max={timer} />;
 }
